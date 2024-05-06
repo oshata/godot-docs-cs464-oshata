@@ -80,6 +80,10 @@ to save you time coding games. Its features include:
   have dynamic types by default, but you also can use type hints for strong type
   checks.
 
+*GDScript in Godot 4.2 has seen several improvements, including performance
+optimizations and enhanced editor integrations that offer better syntax
+highlighting and error detection in real-time.*
+
 GDScript looks like Python as you structure your code blocks using indentations,
 but it doesn't work the same way in practice. It's inspired by multiple
 languages, including Squirrel, Lua, and Python.
@@ -111,6 +115,10 @@ thanks to a generous donation from Microsoft.
 C# offers a good tradeoff between performance and ease of use, although you
 should be aware of its garbage collector.
 
+*With Godot 4.2, projects written in C# can now be exported to Android and iOS
+platforms, though some limitations still apply. This broadens the scope of platforms
+available for C#-based projects in Godot.*
+
 .. note:: You must use the .NET edition of the Godot editor to script in C#. You
           can download it on the Godot website's `download
           <https://godotengine.org/download/>`_ page.
@@ -135,6 +143,11 @@ officially supported .NET option.
 
 .. seealso:: To learn more about C#, head to the :ref:`C# basics <doc_c_sharp>` page.
 
+*To better support game developers, recent updates have introduced enhanced
+debugging tools and integration features for C# and GDScript in the Godot editor.
+These improvements aim to streamline the development process, particularly for
+complex projects.*
+
 C++ via GDExtension
 ~~~~~~~~~~~~~~~~~~~
 
@@ -145,6 +158,10 @@ Godot.
 
 You can use any version of the language or mix compiler brands and versions for
 the generated shared libraries, thanks to our use of an internal C API Bridge.
+
+*Recent updates to GDExtension have focused on increasing the efficiency of
+memory management and expanding the types and functions that closely resemble
+Godot's C++ API, thus offering more power and flexibility to developers.*
 
 GDExtension is the best choice for performance. You don't need to use it
 throughout an entire game, as you can write other parts in GDScript or C#.
